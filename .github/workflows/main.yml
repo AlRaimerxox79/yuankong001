@@ -1,0 +1,27 @@
+name: Build iOS IPA
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode Version
+        run: xcodebuild -version
+
+      - name: List Files
+        run: ls -R
+
+      - name: Build
+        run: |
+          xcodebuild \
+          -project AegisControlClient.xcodeproj \
+          -scheme AegisControlClient \
+          -configuration Release \
+          CODE_SIGNING_ALLOWED=NO \
+          build
