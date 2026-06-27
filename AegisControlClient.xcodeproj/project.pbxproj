@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000101 /* AegisControlClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000201 /* AegisControlClientApp.swift */; };
+		A1000102 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000202 /* AppState.swift */; };
+		A1000103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000203 /* ContentView.swift */; };
+		A1000104 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000204 /* MessageModels.swift */; };
+		A1000105 /* DeviceInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000205 /* DeviceInfoProvider.swift */; };
+		A1000106 /* ScreenCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000206 /* ScreenCaptureService.swift */; };
+		A1000107 /* CommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000207 /* CommandHandler.swift */; };
+		A1000108 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000208 /* WebSocketClient.swift */; };
+		A1000109 /* ConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020A /* ConfigStore.swift */; };
+		A100010A /* MonitorDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020B /* MonitorDataStore.swift */; };
+		A100010B /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020C /* FileHelper.swift */; };
+		A100010C /* GalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020D /* GalleryService.swift */; };
+		A100010D /* AppListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020E /* AppListProvider.swift */; };
+		A100010E /* CameraCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020F /* CameraCaptureService.swift */; };
+		A1000110 /* ConfigURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000210 /* ConfigURLHandler.swift */; };
+		A1000111 /* EmbedConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000211 /* EmbedConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000201 /* AegisControlClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AegisControlClientApp.swift; sourceTree = "<group>"; };
+		A1000202 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A1000203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000204 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModels.swift; sourceTree = "<group>"; };
+		A1000205 /* DeviceInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoProvider.swift; sourceTree = "<group>"; };
+		A1000206 /* ScreenCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureService.swift; sourceTree = "<group>"; };
+		A1000207 /* CommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandHandler.swift; sourceTree = "<group>"; };
+		A1000208 /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		A100020A /* ConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigStore.swift; sourceTree = "<group>"; };
+		A100020B /* MonitorDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorDataStore.swift; sourceTree = "<group>"; };
+		A100020C /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		A100020D /* GalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryService.swift; sourceTree = "<group>"; };
+		A100020E /* AppListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListProvider.swift; sourceTree = "<group>"; };
+		A100020F /* CameraCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureService.swift; sourceTree = "<group>"; };
+		A1000210 /* ConfigURLHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigURLHandler.swift; sourceTree = "<group>"; };
+		A1000211 /* EmbedConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedConfig.swift; sourceTree = "<group>"; };
+		A1000209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000301 /* AegisControlClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AegisControlClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000501 = {
+			isa = PBXGroup;
+			children = (
+				A1000502 /* AegisControlClient */,
+				A1000503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000502 /* AegisControlClient */ = {
+			isa = PBXGroup;
+			children = (
+				A1000201 /* AegisControlClientApp.swift */,
+				A1000202 /* AppState.swift */,
+				A1000203 /* ContentView.swift */,
+				A1000504 /* Models */,
+				A1000505 /* Services */,
+				A1000209 /* Info.plist */,
+			);
+			path = AegisControlClient;
+			sourceTree = "<group>";
+		};
+		A1000503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000301 /* AegisControlClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1000504 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000204 /* MessageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000505 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1000205 /* DeviceInfoProvider.swift */,
+				A1000206 /* ScreenCaptureService.swift */,
+				A1000207 /* CommandHandler.swift */,
+				A1000208 /* WebSocketClient.swift */,
+				A100020A /* ConfigStore.swift */,
+				A100020B /* MonitorDataStore.swift */,
+				A100020C /* FileHelper.swift */,
+				A100020D /* GalleryService.swift */,
+				A100020E /* AppListProvider.swift */,
+				A100020F /* CameraCaptureService.swift */,
+				A1000210 /* ConfigURLHandler.swift */,
+				A1000211 /* EmbedConfig.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000601 /* AegisControlClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000702 /* Build configuration list for PBXNativeTarget "AegisControlClient" */;
+			buildPhases = (
+				A1000602 /* Sources */,
+				A1000401 /* Frameworks */,
+				A1000603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AegisControlClient;
+			productName = AegisControlClient;
+			productReference = A1000301 /* AegisControlClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A1000701 /* Build configuration list for PBXProject "AegisControlClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000501;
+			productRefGroup = A1000503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000601 /* AegisControlClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000101 /* AegisControlClientApp.swift in Sources */,
+				A1000102 /* AppState.swift in Sources */,
+				A1000103 /* ContentView.swift in Sources */,
+				A1000104 /* MessageModels.swift in Sources */,
+				A1000105 /* DeviceInfoProvider.swift in Sources */,
+				A1000106 /* ScreenCaptureService.swift in Sources */,
+				A1000107 /* CommandHandler.swift in Sources */,
+				A1000108 /* WebSocketClient.swift in Sources */,
+				A1000109 /* ConfigStore.swift in Sources */,
+				A100010A /* MonitorDataStore.swift in Sources */,
+				A100010B /* FileHelper.swift in Sources */,
+				A100010C /* GalleryService.swift in Sources */,
+				A100010D /* AppListProvider.swift in Sources */,
+				A100010E /* CameraCaptureService.swift in Sources */,
+				A1000110 /* ConfigURLHandler.swift in Sources */,
+				A1000111 /* EmbedConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AEGIS_EMBED_SERVER_URL = "";
+				AEGIS_EMBED_USERNAME = "";
+				AEGIS_EMBED_CLIENT_TOKEN = "";
+				AEGIS_EMBED_WDA_URL = "";
+				AEGIS_EMBED_CONTROL_MODE = "";
+				AEGIS_EMBED_VNC_HOST = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AegisControlClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aegis.control.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AEGIS_EMBED_SERVER_URL = "";
+				AEGIS_EMBED_USERNAME = "";
+				AEGIS_EMBED_CLIENT_TOKEN = "";
+				AEGIS_EMBED_WDA_URL = "";
+				AEGIS_EMBED_CONTROL_MODE = "";
+				AEGIS_EMBED_VNC_HOST = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AegisControlClient/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aegis.control.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000701 /* Build configuration list for PBXProject "AegisControlClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000901 /* Debug */,
+				A1000902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000702 /* Build configuration list for PBXNativeTarget "AegisControlClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000903 /* Debug */,
+				A1000904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000801 /* Project object */;
+}
